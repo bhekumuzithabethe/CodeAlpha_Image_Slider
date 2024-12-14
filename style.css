@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(49, 92, 184);
+    
+}
+
+.slider{
+    width:75%;
+    margin:20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+
+}
+
+.image-container img{
+    width: 100%;
+
+}
+
+.btn{
+    border: 2px solid;
+    outline: none;
+    background: transparent;
+    padding-left: 10px 30px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.btn i{
+    margin: 5px;
+    font-size: 30px;
+    background: transparent;
+
+}
+.btn:hover{
+    background: black;
+    color: white;
+}
